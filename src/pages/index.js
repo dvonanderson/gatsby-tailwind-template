@@ -1,14 +1,18 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Stage, Layer, Text } from 'react-konva';
+
 
 import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import DsaLogo from "../components/dsaLogo"
+import SEO from "../components/seo";
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1 className="bg-red-400"> Hello Devon </h1>
+      <h1 className="text-center">Code of the South Gatsby React Template</h1>
+      <div className="w-1/5 m-auto">
+        <DsaLogo />
+      </div>
   </Layout>
 )
 
